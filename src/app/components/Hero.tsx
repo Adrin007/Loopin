@@ -3,19 +3,19 @@ import { Workflow,Sparkles,WandSparkles,Expand,MoveRight } from 'lucide-react';
 
 export default function Hero() {
     return (
-        <section className="relative px-3 md:px-8 py-8 font-geist mx-auto w-full overflow-hidden">
+        <section className="relative px-3 md:px-8 py-8 font-geist w-full overflow-hidden">
             <img 
                 src="/flower1_alt.png" 
                 alt="Flower" 
-                className="absolute -left-45 md:-left-78 top-[55%] md:top-[55%] transform -translate-y-1/2 w-auto h-auto max-w-[300px] md:max-w-[600px]" 
+                className="absolute -left-45 md:-left-78 lg:-left-85 top-[55%] md:top-[55%] lg:top-[57%] transform -translate-y-1/2 w-auto h-auto max-w-[300px] md:max-w-[600px] lg:max-w-[650px]" 
             />
             <img 
                 src="/flower2_alt.png" 
                 alt="Flower" 
-                className="absolute -right-44 md:-right-85 top-[43%] md:top-[25%] transform -translate-y-1/2 w-auto h-auto max-w-[250px] md:max-w-[500px]" 
+                className="absolute -right-44 md:-right-85 top-[43%] md:top-[25%] transform -translate-y-1/2 w-auto h-auto max-w-[250px] md:max-w-[500px] lg:max-w-[550px]" 
             />
             <div className="flex flex-col items-center justify-center bg-[#f9f8f6] rounded-4xl w-full overflow-hidden px-3 md:px-10 pb-5" style={{ maxWidth: '100vw' }}>
-                <h1 className="text-[1.7rem] md:text-6xl font-semibold text-gray-900 leading-tight tracking-tight text-center text-balance mt-[4rem]" style={{ lineHeight: '1.1' }}>
+                <h1 className="text-[1.7rem] md:text-6xl lg:text-7xl font-semibold text-gray-900 leading-tight tracking-tight text-center text-balance mt-[4rem]" style={{ lineHeight: '1.1' }}>
                     Automate <span className='font-logo italic'>workflows</span> with <br /> connected apps—and <br /> the freedom to scale them!
                 </h1>
                 <p className="mt-3 text-xs md:text-sm font-medium text-gray-900 max-w-2xl leading-relaxed text-center">

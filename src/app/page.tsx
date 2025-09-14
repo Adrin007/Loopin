@@ -3,6 +3,7 @@ import Attention1 from './components/Attention1';
 import Hero from './components/Hero';
 import Integration from './components/Integration';
 import Navbar from './components/Navbar';
+import Attention2 from './components/Attention2';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Attention1/>
       <Integration/>
       <Features/>
+      <Attention2/>
     </div>
   );
 }
