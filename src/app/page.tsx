@@ -4,6 +4,8 @@ import Hero from './components/Hero';
 import Integration from './components/Integration';
 import Navbar from './components/Navbar';
 import Attention2 from './components/Attention2';
+import Pricing from './components/pricing';
+import Footer from './components/footer';
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <Integration/>
       <Features/>
       <Attention2/>
+      <Pricing/>
+      <Footer/>
     </div>
   );
 }

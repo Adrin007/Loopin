@@ -27,16 +27,16 @@ export default function Navbar() {
           </h1>
         </div>
         <div className="hidden md:flex items-center gap-1 text-gray-700 text-xs font-medium mt-1">
-          <button className="hover:bg-slate-600/5 transition-all duration-300 text-[0.7rem] px-3 py-1.5 rounded-md">
+          <button className="hover:bg-slate-600/5 transition-all duration-300 text-[0.8rem] px-3 py-1.5 rounded-md">
             Features
           </button>
-          <button className="hover:bg-slate-600/5 transition-all duration-300 text-[0.7rem] px-3 py-1.5 rounded-md">
+          <button className="hover:bg-slate-600/5 transition-all duration-300 text-[0.8rem] px-3 py-1.5 rounded-md">
             Integrations
           </button>
-          <button className="hover:bg-slate-600/5 transition-all duration-300 text-[0.7rem] px-3 py-1.5 rounded-md">
+          <button className="hover:bg-slate-600/5 transition-all duration-300 text-[0.8rem] px-3 py-1.5 rounded-md">
             How it Works
           </button>
-          <button className="hover:bg-slate-600/5 transition-all duration-300 text-[0.7rem] px-3 py-1.5 rounded-md">
+          <button className="hover:bg-slate-600/5 transition-all duration-300 text-[0.8rem] px-3 py-1.5 rounded-md">
             Pricing
           </button>
         </div>
@@ -46,7 +46,7 @@ export default function Navbar() {
         <div className="relative">
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <button className="flex items-center gap-1 text-gray-700 font-medium hover:bg-slate-600/5 transition-all duration-300 text-[0.7rem] px-3 py-1.5 rounded-sm border-1 border-gray-600/30 focus:outline-none">
+              <button className="flex items-center gap-1 text-gray-700 font-medium hover:bg-slate-600/5 transition-all duration-300 text-[0.8rem] px-3 py-1.5 rounded-sm border-1 border-gray-600/30 focus:outline-none">
                 <Languages className="w-3 h-3" />
                 {selectedLanguage}
                 <ChevronDown className="w-3 h-3" />
@@ -56,7 +56,7 @@ export default function Navbar() {
               {Object.entries(languageMap).map(([key, label]) => (
                 <DropdownMenuItem
                   key={key}
-                  className="flex items-center justify-between px-3 py-1 text-[0.7rem] hover:bg-gray-100"
+                  className="flex items-center justify-between px-3 py-1 text-[0.8rem] hover:bg-gray-100"
                   onClick={() => setSelectedLanguage(key)}
                 >
                   {key} - {label}
@@ -68,10 +68,10 @@ export default function Navbar() {
             </DropdownMenuContent>
           </DropdownMenu>
         </div>
-        <button className="text-gray-700 font-medium hover:bg-slate-600/5 transition-all duration-300 text-[0.7rem] px-3 py-1.5 rounded-sm border-1 border-gray-600/30">
+        <button className="text-gray-700 font-medium hover:bg-slate-600/5 transition-all duration-300 text-[0.8rem] px-3 py-1.5 rounded-sm border-1 border-gray-600/30">
           Log in
         </button>
-        <button className="bg-black hover:opacity-90 transition-all duration-300 text-white text-[0.7rem] font-medium px-3 py-1.5 rounded-sm flex items-center justify-center">
+        <button className="bg-black hover:opacity-90 transition-all duration-300 text-white text-[0.8rem] font-medium px-3 py-1.5 rounded-sm flex items-center justify-center">
           Sign up
         </button>
       </div>
