@@ -2,7 +2,6 @@ import { Shell, Mail } from 'lucide-react';
 import { FaXTwitter } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-/* eslint-disable @next/next/no-img-element */
 
 export default function Footer() {
   return (
@@ -24,7 +23,7 @@ export default function Footer() {
             <span className="font-logo font-bold text-3xl">loop</span>
           </div>
           <div className="space-y-3">
-            <h1 className="text-4xl md:text-5xl font-bold leading-tight">Ready to automate?</h1>
+            <h1 className="text-4xl md:text-5xl font-bold leading-tight">Ready to <span className='font-logo italic'>automate?</span></h1>
             <p className="text-sm text-gray-600">Join hundreds of creators and teams using Loop.in to build powerful automations.</p>
           </div>
           <div className="flex flex-col md:flex-row items-center justify-center gap-3 pt-2">

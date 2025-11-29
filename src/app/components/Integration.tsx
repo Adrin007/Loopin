@@ -18,6 +18,14 @@ export default function Integration() {
     return (
         <section className="px-3 md:px-12 -mt-5 font-geist w-full overflow-hidden">
             <div className="flex flex-col items-center justify-center bg-[#f9f8f6] rounded-4xl w-full overflow-hidden px-4 md:px-10 pb-10 relative" style={{ maxWidth: '100vw' }}>
+                <Image
+              src="/tam-cord.png"
+              alt="green cord"
+              width={200}
+              height={200}
+              className="absolute left-0 top-0 rotate-180 pointer-events-none select-none"
+              priority
+            />
                 <h1 className="text-[2rem] md:text-5xl font-semibold text-black leading-tight tracking-tight text-center text-balance mt-[4rem]" style={{ lineHeight: '1.1' }}>
                     Your Tools. One <span className='font-logo italic'>Seamless</span> Flow!
                 </h1>
